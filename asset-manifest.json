@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-sample-landing-page/static/css/main.e5174e49.css",
+    "main.js": "/react-sample-landing-page/static/js/main.1502ee4c.js",
+    "static/js/787.648bd933.chunk.js": "/react-sample-landing-page/static/js/787.648bd933.chunk.js",
+    "static/media/coinbase-hero.jpg": "/react-sample-landing-page/static/media/coinbase-hero.027417cc00fa304c2e9c.jpg",
+    "index.html": "/react-sample-landing-page/index.html",
+    "main.e5174e49.css.map": "/react-sample-landing-page/static/css/main.e5174e49.css.map",
+    "main.1502ee4c.js.map": "/react-sample-landing-page/static/js/main.1502ee4c.js.map",
+    "787.648bd933.chunk.js.map": "/react-sample-landing-page/static/js/787.648bd933.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5174e49.css",
+    "static/js/main.1502ee4c.js"
+  ]
+}
