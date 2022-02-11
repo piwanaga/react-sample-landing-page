@@ -2,4 +2,4 @@
 
 ## Goal
 
-My goal was to make a simple landing page in to practice for an interview using React and vanilla CSS. 
+My goal was to make a simple landing page to practice for an interview using React and vanilla CSS. 
