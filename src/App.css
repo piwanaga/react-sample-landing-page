@@ -132,10 +132,17 @@
   background-color: rgb(38, 52, 240);
   color: white;
   font-size: 1.1rem;
+  animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 20%;
+  }
 }
 
 .Hero-signup-button:hover {
-  filter: brightness(95%);
+  /* filter: brightness(95%); */
   cursor: pointer;
 }
 
