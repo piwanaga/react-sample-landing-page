@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-sample-landing-page/static/css/main.f0270a80.css",
-    "main.js": "/react-sample-landing-page/static/js/main.2954b623.js",
+    "main.css": "/react-sample-landing-page/static/css/main.80785abf.css",
+    "main.js": "/react-sample-landing-page/static/js/main.432ea4e7.js",
     "static/js/787.648bd933.chunk.js": "/react-sample-landing-page/static/js/787.648bd933.chunk.js",
     "static/media/coinbase-hero.jpg": "/react-sample-landing-page/static/media/coinbase-hero.027417cc00fa304c2e9c.jpg",
     "index.html": "/react-sample-landing-page/index.html",
-    "main.f0270a80.css.map": "/react-sample-landing-page/static/css/main.f0270a80.css.map",
-    "main.2954b623.js.map": "/react-sample-landing-page/static/js/main.2954b623.js.map",
+    "main.80785abf.css.map": "/react-sample-landing-page/static/css/main.80785abf.css.map",
+    "main.432ea4e7.js.map": "/react-sample-landing-page/static/js/main.432ea4e7.js.map",
     "787.648bd933.chunk.js.map": "/react-sample-landing-page/static/js/787.648bd933.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0270a80.css",
-    "static/js/main.2954b623.js"
+    "static/css/main.80785abf.css",
+    "static/js/main.432ea4e7.js"
   ]
 }
