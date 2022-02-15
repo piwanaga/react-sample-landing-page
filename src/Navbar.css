@@ -1,0 +1,204 @@
+.PromoBanner {
+    text-align: center;
+    padding: .75rem 0rem;
+    background-color: rgb(38, 52, 240);
+    color: white;
+    width: full;
+    font-weight: bold;
+}
+  
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 0 1rem 1rem 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo {
+    color: rgb(38, 52, 240);
+    font-size: 1.5rem;
+}
+
+.toggle {
+    position: absolute;
+    top: 4.05rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 18px;
+}
+
+.toggle .bar {
+    height: 3px;
+    width: 100%;
+    background-color: slategray;
+    border-radius: 10px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+}  
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.Navbar .user-links {
+    display: flex;
+}
+
+.Navbar .signin-button {
+    background: none;
+    font-weight: bold;
+}
+
+.Navbar .signin-button:hover {
+    color: rgb(38, 52, 240);
+    cursor: pointer;
+}
+
+.Navbar .signup-button {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(38, 52, 240);
+    color: white;
+    font-weight: bold;
+}
+
+.Navbar .signup-button:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    .user-links button {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        margin-top: .5rem;
+    }
+
+    .Navbar .toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        padding: 0;
+        font-size: 1.1rem;
+    }
+
+    .nav-links li {
+        padding: .75rem 0;
+    }
+
+    .active {
+        display: flex;
+    }
+
+    .Navbar .user-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Navbar .signin-button {
+        padding: 1.2rem 1.5rem;
+        border: 1px solid rgb(38, 52, 240);
+        font-size: 1rem;
+    }
+
+    .Navbar .signup-button {
+        padding: 1.2rem 1.5rem;
+        margin: .5rem 0;
+        font-size: 1rem;
+    }
+
+    .signup-button.mobile-sm {
+        padding: .6rem .8rem;
+        font-size: .9rem;
+        position: absolute;
+        top: 2.9rem;
+        right: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .signup-button.mobile-sm {
+        display: none;
+    }
+
+    .Navbar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 2rem;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+    .nav-links ul {
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        padding: 0 1rem;
+        border-bottom: 4px solid transparent;
+    }
+
+    .nav-links li:hover {
+        border-bottom: 4px solid rgb(38, 52, 240);
+        }
+
+    .Navbar .user-links {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .user-links button {
+        padding: .5rem .9rem;
+        width: auto;
+    }
+
+    .Navbar .signin-button {
+        border: none;
+    }
+
+}
+
+@media (min-width: 1260px) {
+    .Navbar {
+        padding: 0 10rem;;
+    }
+}
+
+@media (min-width: 1420px) {
+    .Navbar {
+        padding: 0 15rem;;
+    }
+}

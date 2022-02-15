@@ -1,25 +1,39 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({ toggleActive, handleToggle }) => {
     return (
         <nav className='Navbar'>
-            <div className='Navbar-content-container'>
-                <div className='Navbar-logo'>
-                    <h1>company</h1>
-                </div>
-                <div className='Navbar-main-nav'>
-                    <ul className='Navbar-main-nav-links'>
-                        <li className='Navbar-nav-item'>Prices</li>
-                        <li className='Navbar-nav-item'>Learn</li>
-                        <li className='Navbar-nav-item'>Individuals</li>
-                        <li className='Navbar-nav-item'>Businesses</li>
-                        <li className='Navbar-nav-item'>Developers</li>
-                        <li className='Navbar-nav-item'>Company</li>
-                    </ul>
-                </div>
-                <div className='Navbar-user-links'>
-                    <button className='Navbar-signin-button'>Sign In</button>
-                    <button className='Navbar-signup-button'>Sign Up</button>
+            <div className='logo'>company</div>
+            <button className='signup-button mobile-sm'>Sign Up</button>
+            <a href='#' className='toggle' onClick={handleToggle}>
+                <span className='bar'></span>
+                <span className='bar'></span>
+                <span className='bar'></span>
+            </a>
+            <div className={`nav-links ${toggleActive ? 'active' : null}`}>
+                <ul>
+                    <li>
+                        <a href='#'>Prices</a>
+                    </li>
+                    <li>
+                        <a href='#'>Learn</a>
+                    </li>
+                    <li>
+                        <a href='#'>Individuals</a>
+                    </li>
+                    <li>
+                        <a href='#'>Businesses</a>
+                    </li>
+                    <li>
+                        <a href='#'>Developers</a>
+                    </li>
+                    <li>
+                        <a href='#'>Company</a>
+                    </li>
+                </ul>
+                <div className='user-links'>
+                    <button className='signup-button'>Sign Up</button>
+                    <button className='signin-button'>Sign In</button>
                 </div>
             </div>
         </nav>

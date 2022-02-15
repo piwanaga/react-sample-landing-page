@@ -2,11 +2,11 @@ import React from 'react';
 import PromoBanner from './PromoBanner';
 import Navbar from './Navbar';
 
-const Header = () => {
+const Header = ({ toggleActive, handleToggle }) => {
     return (
         <header>
             <PromoBanner />
-            <Navbar />
+            <Navbar toggleActive={toggleActive} handleToggle={handleToggle}/>
         </header>
     );
 };
